@@ -10,6 +10,7 @@ def oxford_comma(array)
     last_element = array[-1]
     array.pop
     array << ", and #{last_element}"
+    array.split
 
   end
 end
