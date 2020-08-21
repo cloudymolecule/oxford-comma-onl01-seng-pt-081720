@@ -11,6 +11,6 @@ def oxford_comma(array)
     array.pop!
     array.join(", ")
     new_array = array << ", and #{last_element}"
-    
+
   end
 end
