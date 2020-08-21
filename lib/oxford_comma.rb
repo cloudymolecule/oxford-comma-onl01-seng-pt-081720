@@ -6,5 +6,7 @@ def oxford_comma(array)
   elsif array.length == 3
     new_array = array[0..1].join(", ")
     new_array << ", and starfruit"
+  elsif array.length == 4
+
   end
 end
